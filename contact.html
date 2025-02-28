@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Winter Haven Resort | Contact</title>
+        
+        <meta name="author" content="Gracie Jackson">
+        <meta name="description" content="Winter Haven Resort is a beautiful resort located in the Swiss Alps, it features many different dining options, skiing, ski-in bars, spa, gym, and much more!">
+
+        <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+        <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <section id="top_head">
+                <h1>Winter Haven Resort</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accommodations</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <img src="images/swiss-valley.jpg" alt="a lush green valley with a river running through the middle and snowy mountains in background" width="1440" height="560">
+
+        <main class="contact_main">
+            <section class="contact_para">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <p class="sec_para">Required fields marked with a <span class="required">*</span></p>
+            </section>
+            
+                <img class="contact_img" src="images/swiss-peak.jpg" alt="very large mountain in the middle with tall green trees framing the bottom of the mountain with a river running between" width="350" height="455">
+                
+                <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
+                    
+                    <section class="first_form">
+                        <label for="full_name">Full Name: *</label>
+                        <input type="text" name="full_name" id="full_name" required>
+
+                        <label for="my_email">Email Address: *</label>
+                        <input type="email" name="my_email" id="my_email" required>
+
+                        <label for="my_phone">Phone Number: *</label>
+                        <input type="tel" name="my_phone" id="my_phone" required>
+                    </section>
+                    <section class="second_form">
+                            <fieldset>
+                                <legend>Preferred Contact Method</legend>
+
+                                <input type="radio" name="con_pref" id="pref_email" checked>
+                                <label for="pref_email">Email</label>
+
+                                <input type="radio" name="con_pref" id="pref_phone">
+                                <label for="pref_phone">Phone</label>
+                            </fieldset>
+
+                        <label class="com_name" for="my_comment">Comments</label>
+                        <textarea name="my_comment" id="my_comment" required></textarea>
+
+                        <input type="submit" name="my_sub" id="my_sub" value="Submit">
+                    </section>
+                </form>
+        </main>
+    
+        <footer>
+            <p>Copyright &copy; 2025 - Winter Haven Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
